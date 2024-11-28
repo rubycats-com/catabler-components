@@ -1,6 +1,6 @@
 # Changelog
 
-## `3.21.0.2` - 2024-11-28
+## `0.1.1` - 2024-11-28
 
 - Add pagy dependency
 - Add dry-initializer dependency
