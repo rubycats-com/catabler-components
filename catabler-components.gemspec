@@ -9,6 +9,7 @@ Gem::Specification.new do |spec|
   spec.summary     = "ViewComponents bundle for tabler.io theme"
   spec.description = "Components pack"
   spec.license     = "MIT"
+  spec.required_ruby_version = ">= 3.3.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/rubycats-com/catabler-components"
@@ -22,4 +23,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency "catabler"
   spec.add_dependency "catabler-icons"
   spec.add_dependency "view_component"
+  spec.add_dependency "dry-initializer"
+  spec.add_dependency "pagy"
 end
